@@ -28,6 +28,10 @@
             student.AddExams(exam2);
             Console.WriteLine(student.ToFullString());
 
+            Number2 n2 = new Number2();
+            n2.Init();
+            n2.TestSpeed();
+
         }
     }
 }
